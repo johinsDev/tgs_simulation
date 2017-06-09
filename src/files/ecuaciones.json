@@ -1,16 +1,6 @@
 {
   "ecuacion-1": {
-    "equation":["PD", "+" , "CR"],
-    "variables": {
-      "PD": {
-        "name": "Prevencion Delincuencia",
-        "value": 10
-      },
-      "CR": {
-        "name": "Criminalidad",
-        "value": 1
-      }
-    },
+    "variables": ["PD","CR", "VE", "AE"],
     "options": {
       "title": {
         "text": "Tasa de desercion con respecto a la violecion"
@@ -24,17 +14,21 @@
       },
       "yAxis": {
         "title": {
-          "text": "Estudiantes que desertan"
+          "text": "Estudiantes que desertan (%)"
         }
+      },
+      "tooltip": {
+        "valueSuffix": "%"
       },
       "legend": {
         "layout": "vertical",
         "align": "right",
         "verticalAlign": "middle"
       },
-
       "plotOptions": {
-
+        "column": {
+          "stacking": "percent"
+        }
       },
       "series": [{
        "name": "Tasa de desercion",
@@ -43,11 +37,10 @@
     }
   },
   "ecuacion-2": {
-
-    "equation":["PD", "+" , "CR"],
+    "variables": ["EDJ","DE", "BDP"],
     "options": {
       "title": {
-        "text": "Tasa de desercion con respecto a la violecion"
+        "text": "Tasa de desercion con relacion a empleos"
       },
 
       "subtitle": {
@@ -58,17 +51,501 @@
       },
       "yAxis": {
         "title": {
-          "text": "Estudiantes que desertan"
+          "text": "Estudiantes que desertan (%)"
         }
+      },
+      "tooltip": {
+        "valueSuffix": "%"
       },
       "legend": {
         "layout": "vertical",
         "align": "right",
         "verticalAlign": "middle"
       },
-
       "plotOptions": {
+        "column": {
+          "stacking": "percent"
+        }
+      },
+      "series": [{
+        "name": "Tasa de desercion",
+        "data": []
+      }]
+    }
+  },
+  "ecuacion-3": {
+    "variables": ["ES","AME", "AMF", "EH", "ENP", "AE"],
+    "options": {
+      "title": {
+        "text": "Tasa de desercion con relacion a la familia"
+      },
 
+      "subtitle": {
+        "text": "Desercion Escolar"
+      },
+      "xAxis": {
+        "categories": ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
+      },
+      "yAxis": {
+        "title": {
+          "text": "Estudiantes que desertan (%)"
+        }
+      },
+      "tooltip": {
+        "valueSuffix": "%"
+      },
+      "legend": {
+        "layout": "vertical",
+        "align": "right",
+        "verticalAlign": "middle"
+      },
+      "plotOptions": {
+        "column": {
+          "stacking": "percent"
+        }
+      },
+      "series": [{
+        "name": "Tasa de desercion",
+        "data": []
+      }]
+    }
+  },
+  "ecuacion-4": {
+    "variables": ["NEF","EL", "DTE"],
+    "options": {
+      "title": {
+        "text": "Tasa de desercion con relacion a empleo juvenil"
+      },
+
+      "subtitle": {
+        "text": "Desercion Escolar"
+      },
+      "xAxis": {
+        "categories": ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
+      },
+      "yAxis": {
+        "title": {
+          "text": "Estudiantes que desertan (%)"
+        }
+      },
+      "tooltip": {
+        "valueSuffix": "%"
+      },
+      "legend": {
+        "layout": "vertical",
+        "align": "right",
+        "verticalAlign": "middle"
+      },
+      "plotOptions": {
+        "column": {
+          "stacking": "percent"
+        }
+      },
+      "series": [{
+        "name": "Tasa de desercion",
+        "data": []
+      }]
+    }
+  },
+  "ecuacion-5": {
+    "variables": ["NEF","AME", "AE"],
+    "options": {
+      "title": {
+        "text": "Tasa de desercion con relacion a la ausencia escolar"
+      },
+
+      "subtitle": {
+        "text": "Desercion Escolar"
+      },
+      "xAxis": {
+        "categories": ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
+      },
+      "yAxis": {
+        "title": {
+          "text": "Estudiantes que desertan (%)"
+        }
+      },
+      "tooltip": {
+        "valueSuffix": "%"
+      },
+      "legend": {
+        "layout": "vertical",
+        "align": "right",
+        "verticalAlign": "middle"
+      },
+      "plotOptions": {
+        "column": {
+          "stacking": "percent"
+        }
+      },
+      "series": [{
+        "name": "Tasa de desercion",
+        "data": []
+      }]
+    }
+  },
+  "ecuacion-6": {
+    "variables": ["EDJ","CEJ"],
+    "options": {
+      "title": {
+        "text": "Tasa de desercion con relacion disponibilidad de empleos"
+      },
+
+      "subtitle": {
+        "text": "Desercion Escolar"
+      },
+      "xAxis": {
+        "categories": ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
+      },
+      "yAxis": {
+        "title": {
+          "text": "Estudiantes que desertan (%)"
+        }
+      },
+      "tooltip": {
+        "valueSuffix": "%"
+      },
+      "legend": {
+        "layout": "vertical",
+        "align": "right",
+        "verticalAlign": "middle"
+      },
+      "plotOptions": {
+        "column": {
+          "stacking": "percent"
+        }
+      },
+      "series": [{
+        "name": "Tasa de desercion",
+        "data": []
+      }]
+    }
+  },
+  "ecuacion-7": {
+    "variables": ["EDJ","CEJ"],
+    "options": {
+      "title": {
+        "text": "Tasa de desercion con relacion disponibilidad de empleos"
+      },
+
+      "subtitle": {
+        "text": "Desercion Escolar"
+      },
+      "xAxis": {
+        "categories": ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
+      },
+      "yAxis": {
+        "title": {
+          "text": "Estudiantes que desertan (%)"
+        }
+      },
+      "tooltip": {
+        "valueSuffix": "%"
+      },
+      "legend": {
+        "layout": "vertical",
+        "align": "right",
+        "verticalAlign": "middle"
+      },
+      "plotOptions": {
+        "column": {
+          "stacking": "percent"
+        }
+      },
+      "series": [{
+        "name": "Tasa de desercion",
+        "data": []
+      }]
+    }
+  },
+  "ecuacion-8": {
+    "variables": ["AMF","NAF"],
+    "options": {
+      "title": {
+        "text": "Tasa de desercion con relacion familias de un solo padre"
+      },
+
+      "subtitle": {
+        "text": "Desercion Escolar"
+      },
+      "xAxis": {
+        "categories": ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
+      },
+      "yAxis": {
+        "title": {
+          "text": "Estudiantes que desertan (%)"
+        }
+      },
+      "tooltip": {
+        "valueSuffix": "%"
+      },
+      "legend": {
+        "layout": "vertical",
+        "align": "right",
+        "verticalAlign": "middle"
+      },
+      "plotOptions": {
+        "column": {
+          "stacking": "percent"
+        }
+      },
+      "series": [{
+        "name": "Tasa de desercion",
+        "data": []
+      }]
+    }
+  },
+  "ecuacion-9": {
+    "variables": ["NEF","IR"],
+    "options": {
+      "title": {
+        "text": "Tasa de desercion con relacion nivel economico familiar"
+      },
+
+      "subtitle": {
+        "text": "Desercion Escolar"
+      },
+      "xAxis": {
+        "categories": ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
+      },
+      "yAxis": {
+        "title": {
+          "text": "Estudiantes que desertan (%)"
+        }
+      },
+      "tooltip": {
+        "valueSuffix": "%"
+      },
+      "legend": {
+        "layout": "vertical",
+        "align": "right",
+        "verticalAlign": "middle"
+      },
+      "plotOptions": {
+        "column": {
+          "stacking": "percent"
+        }
+      },
+      "series": [{
+        "name": "Tasa de desercion",
+        "data": []
+      }]
+    }
+  },
+  "ecuacion-10": {
+    "variables": ["SFME","AS", "AE"],
+    "options": {
+      "title": {
+        "text": "Tasa de desercion con relacion apoyo a la salud"
+      },
+
+      "subtitle": {
+        "text": "Desercion Escolar"
+      },
+      "xAxis": {
+        "categories": ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
+      },
+      "yAxis": {
+        "title": {
+          "text": "Estudiantes que desertan (%)"
+        }
+      },
+      "tooltip": {
+        "valueSuffix": "%"
+      },
+      "legend": {
+        "layout": "vertical",
+        "align": "right",
+        "verticalAlign": "middle"
+      },
+      "plotOptions": {
+        "column": {
+          "stacking": "percent"
+        }
+      },
+      "series": [{
+        "name": "Tasa de desercion",
+        "data": []
+      }]
+    }
+  },
+  "ecuacion-11": {
+    "variables": ["AEP","IA", "SMHE"],
+    "options": {
+      "title": {
+        "text": "Tasa de desercion con relacion a las instalaciones educativas"
+      },
+
+      "subtitle": {
+        "text": "Desercion Escolar"
+      },
+      "xAxis": {
+        "categories": ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
+      },
+      "yAxis": {
+        "title": {
+          "text": "Estudiantes que desertan (%)"
+        }
+      },
+      "tooltip": {
+        "valueSuffix": "%"
+      },
+      "legend": {
+        "layout": "vertical",
+        "align": "right",
+        "verticalAlign": "middle"
+      },
+      "plotOptions": {
+        "column": {
+          "stacking": "percent"
+        }
+      },
+      "series": [{
+        "name": "Tasa de desercion",
+        "data": []
+      }]
+    }
+  },
+  "ecuacion-12": {
+    "variables": ["CAE", "AEC"],
+    "options": {
+      "title": {
+        "text": "Tasa de desercion con relacion a las instalaciones educativas"
+      },
+
+      "subtitle": {
+        "text": "Desercion Escolar"
+      },
+      "xAxis": {
+        "categories": ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
+      },
+      "yAxis": {
+        "title": {
+          "text": "Estudiantes que desertan (%)"
+        }
+      },
+      "tooltip": {
+        "valueSuffix": "%"
+      },
+      "legend": {
+        "layout": "vertical",
+        "align": "right",
+        "verticalAlign": "middle"
+      },
+      "plotOptions": {
+        "column": {
+          "stacking": "percent"
+        }
+      },
+      "series": [{
+        "name": "Tasa de desercion",
+        "data": []
+      }]
+    }
+  },
+  "ecuacion-13": {
+    "variables": ["CAE", "PAM", "SD", "AA", "SMHE", "LC"],
+    "options": {
+      "title": {
+        "text": "Tasa de desercion"
+      },
+
+      "subtitle": {
+        "text": "Desercion Escolar"
+      },
+      "xAxis": {
+        "categories": ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
+      },
+      "yAxis": {
+        "title": {
+          "text": "Estudiantes que desertan (%)"
+        }
+      },
+      "tooltip": {
+        "valueSuffix": "%"
+      },
+      "legend": {
+        "layout": "vertical",
+        "align": "right",
+        "verticalAlign": "middle"
+      },
+      "plotOptions": {
+        "column": {
+          "stacking": "percent"
+        }
+      },
+      "series": [{
+        "name": "Tasa de desercion",
+        "data": []
+      }]
+    }
+  },
+  "ecuacion-14": {
+    "variables": ["CM", "AA", "SMHE"],
+    "options": {
+      "title": {
+        "text": "Tasa de desercion con relacion a libertad de catedra"
+      },
+
+      "subtitle": {
+        "text": "Desercion Escolar"
+      },
+      "xAxis": {
+        "categories": ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
+      },
+      "yAxis": {
+        "title": {
+          "text": "Estudiantes que desertan (%)"
+        }
+      },
+      "tooltip": {
+        "valueSuffix": "%"
+      },
+      "legend": {
+        "layout": "vertical",
+        "align": "right",
+        "verticalAlign": "middle"
+      },
+      "plotOptions": {
+        "column": {
+          "stacking": "percent"
+        }
+      },
+      "series": [{
+        "name": "Tasa de desercion",
+        "data": []
+      }]
+    }
+  },
+  "total": {
+    "options": {
+      "title": {
+        "text": "TASA DE DESERCION"
+      },
+
+      "subtitle": {
+        "text": "Desercion Escolar"
+      },
+      "xAxis": {
+        "categories": ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
+      },
+      "yAxis": {
+        "title": {
+          "text": "Estudiantes que desertan (%)"
+        }
+      },
+      "tooltip": {
+        "valueSuffix": "%"
+      },
+      "legend": {
+        "layout": "vertical",
+        "align": "right",
+        "verticalAlign": "middle"
+      },
+      "plotOptions": {
+        "column": {
+          "stacking": "percent"
+        }
       },
       "series": [{
         "name": "Tasa de desercion",

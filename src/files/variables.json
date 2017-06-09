@@ -1,12 +1,130 @@
 {
-  "variables": {
-    "PD": {
-      "name": "Prevencion Delincuencia",
-      "value": 10
-    },
-    "CR": {
-      "name": "Criminalidad",
-      "value": 10
-    }
+  "PD": {
+    "name": "Prevencion Delincuencia",
+    "value": 100
+  },
+  "CR": {
+    "name": "Criminalidad",
+    "value": 10
+  },
+  "VE": {
+    "name": "Violencia Escolar",
+    "value": 10
+  },
+  "AE": {
+    "name": "Ausentismo Estudiante",
+    "value": 10
+  },
+  "EDJ": {
+    "name": "Empleos Disponibles Jóvenes",
+    "value": 1
+  },
+  "DE": {
+    "name": "Desempleo",
+    "value": 10
+  },
+  "BDP": {
+    "name": "Brecha Destrezas Preparación",
+    "value": 10
+  },
+  "ES": {
+    "name": "Educacion Sexual",
+    "value": 10
+  },
+  "AME": {
+    "name": "Apoyo Material para Estudiar",
+    "value": 10
+  },
+  "AMF": {
+    "name": "Apoyo Moral Familia",
+    "value": 10
+  },
+  "EH": {
+    "name": "Educación Hogar",
+    "value": 10
+  },
+  "ENP": {
+    "name": "Embarazos no Planificados",
+    "value": 10
+  },
+  "NEF": {
+    "name": "Nivel Economico Familia",
+    "value": 10
+  },
+  "DTE": {
+    "name": "Disponibilidad Tiempo Estudiar",
+    "value": 10
+  },
+  "EL": {
+    "name": "Trabajo Infantil",
+    "value": 10
+  },
+  "CEJ": {
+    "name": "Control Empleo Jóvenes",
+    "value": 10
+  },
+  "FUSP": {
+    "name": "Familias de un Solo Padre",
+    "value": 10
+  },
+  "TCSS": {
+    "name": "Tiempo de Ocio sin Supervision",
+    "value": 10
+  },
+  "NAF": {
+    "name": "Nivel Aspiraciones Futuras",
+    "value": 10
+  },
+  "IR": {
+    "name": "Inestabilidad Residencial",
+    "value": 10
+  },
+  "AS": {
+    "name": "Apoyo a la Salud",
+    "value": 10
+  },
+  "SFME": {
+    "name": "Salud Fisica Mental",
+    "value": 10
+  },
+  "AEP": {
+    "name": "Apoyo Educación Publica",
+    "value": 10
+  },
+  "IA": {
+    "name": "Instalaciones inadecuadas",
+    "value": 10
+  },
+  "SMHE": {
+    "name": "Satisfaction Motivation Hacia  Escuela ",
+    "value": 10
+  },
+  "AEC": {
+    "name": "Actividades ExtraCurriculares",
+    "value": 10
+  },
+  "CAE": {
+    "name": "Control Sobre las Actividades de los Estudiantes",
+    "value": 10
+  },
+  "CDDE": {
+    "name": "Conflictos Docentes-Directivos-Estudiantes",
+    "value": 10
+  },
+  "PAM": {
+    "name": "Programas Apoyo Maestro",
+    "value": 10
+  },"SD": {
+    "name": "Suficiencia Docentes",
+    "value": 10
+  },"AA": {
+    "name": "Aprovechamiento Academico ",
+    "value": 10
+  },"LC": {
+    "name": "LIbertad de catedra",
+    "value": 10
+  },"CM": {
+    "name": "Calidad de maestros",
+    "value": 10
   }
 }
