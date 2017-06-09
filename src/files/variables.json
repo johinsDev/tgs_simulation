@@ -1,0 +1,12 @@
+{
+  "variables": {
+    "PD": {
+      "name": "Prevencion Delincuencia",
+      "value": 10
+    },
+    "CR": {
+      "name": "Criminalidad",
+      "value": 10
+    }
+  }
+}

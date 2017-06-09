@@ -1,0 +1,79 @@
+{
+  "ecuacion-1": {
+    "equation":["PD", "+" , "CR"],
+    "variables": {
+      "PD": {
+        "name": "Prevencion Delincuencia",
+        "value": 10
+      },
+      "CR": {
+        "name": "Criminalidad",
+        "value": 1
+      }
+    },
+    "options": {
+      "title": {
+        "text": "Tasa de desercion con respecto a la violecion"
+      },
+
+      "subtitle": {
+        "text": "Desercion Escolar"
+      },
+      "xAxis": {
+        "categories": ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
+      },
+      "yAxis": {
+        "title": {
+          "text": "Estudiantes que desertan"
+        }
+      },
+      "legend": {
+        "layout": "vertical",
+        "align": "right",
+        "verticalAlign": "middle"
+      },
+
+      "plotOptions": {
+
+      },
+      "series": [{
+       "name": "Tasa de desercion",
+        "data": []
+      }]
+    }
+  },
+  "ecuacion-2": {
+
+    "equation":["PD", "+" , "CR"],
+    "options": {
+      "title": {
+        "text": "Tasa de desercion con respecto a la violecion"
+      },
+
+      "subtitle": {
+        "text": "Desercion Escolar"
+      },
+      "xAxis": {
+        "categories": ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
+      },
+      "yAxis": {
+        "title": {
+          "text": "Estudiantes que desertan"
+        }
+      },
+      "legend": {
+        "layout": "vertical",
+        "align": "right",
+        "verticalAlign": "middle"
+      },
+
+      "plotOptions": {
+
+      },
+      "series": [{
+        "name": "Tasa de desercion",
+        "data": []
+      }]
+    }
+  }
+}
